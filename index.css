@@ -111,9 +111,8 @@ precords {
 }
 
 .imglogo {
-
   max-width: 10%;
-  height: 50%;
+  max-height: 20%;
 }
 .img_accueil {
   max-width: 95%;
