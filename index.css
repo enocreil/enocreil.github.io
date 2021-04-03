@@ -66,6 +66,9 @@ q {
   font-weight: 500;
 }
 
+name {
+  font-weight: bold;
+}
 .map-responsive {
   overflow: auto;
   min-height: 300px;
