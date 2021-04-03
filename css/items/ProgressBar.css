@@ -1,0 +1,69 @@
+.progressBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  text-align: right;
+  font-size: 1.25em;
+  transition: 1s color ;
+}
+
+
+.progressBar-element {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+  align-items: center;
+  list-style: none;
+  padding-bottom: 1em;
+  color: #0000;
+  transition: color 0.5s ease-in-out;
+}
+
+.progressBar:hover .progressBar-element {
+  color: rgba(0, 0, 0, 0.685);
+}
+
+.progressBar-element::before {
+  content: "";
+  display: block;
+  text-align: right;
+  width: 0.4em;
+  height: 0.4em;
+  border-radius: 1em;
+  margin-left: 0.75em;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: block;
+}
+
+.progressBar:hover .progressBar-element.active {
+  color: rgba(0, 0, 0, 1);
+}
+
+.progressBar-element.active::before {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.progressBar-element:nth-of-type(1){
+ transition-delay: 0.1s;
+}
+.progressBar-element:nth-of-type(2){
+  transition-delay: 0.2s;
+ }
+ .progressBar-element:nth-of-type(3){
+  transition-delay: 0.3s;
+ }
+ .progressBar-element:nth-of-type(4){
+  transition-delay: 0.4s;
+ }
+ .progressBar-element:nth-of-type(5){
+  transition-delay: 0.5s;
+ }
+ .progressBar-element:nth-of-type(6){
+  transition-delay: 0.6s;
+ }
+ .progressBar-element:nth-of-type(7){
+  transition-delay: 0.7s;
+ }
+ .progressBar-element:nth-of-type(8){
+  transition-delay: 0.8s;
+ }
