@@ -23,8 +23,8 @@ body > main {
 body {
   font-size: 2vmin;
   font-family: -apple-system,Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: rgba(44,117,255,1);
-
+  background-color: rgb(62, 121, 231);
+/*background-color: rgb(44, 117, 255);*/
   color: rgba(0, 0, 0, 0.777);
 }
 
