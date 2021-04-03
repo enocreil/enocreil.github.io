@@ -34,6 +34,7 @@ h1 {
 }
 h2 {
   font-size: 4em;
+  text-align: center;
   text-decoration: underline  rgba(0, 0, 0, 0.777);
   -webkit-text-stroke-width: 0.0125em;
   -webkit-text-stroke-color: white;
